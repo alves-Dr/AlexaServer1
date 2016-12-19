@@ -31,6 +31,9 @@ app.intent('sayNumber',
     if(number == 3 ){
     	response.say("i'm the best");
     }
+     else if(number == 69 ){
+    	response.say("you're a pig!");
+    }
     else{
     	response.say("You asked for the number "+number);
 	}
