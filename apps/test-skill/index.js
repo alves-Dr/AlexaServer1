@@ -28,7 +28,12 @@ app.intent('sayNumber',
   },
   function(request,response) {
     var number = request.slot('number');
-    response.say("You asked for the number "+number);
+    if(number == 3 ){
+    	response.say("i'm the best");
+    }
+    else{
+    	response.say("You asked for the number "+number);
+	}
   }
 );
 
