@@ -1,12 +1,25 @@
 {
   "name": "apps",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "alexa-app-server": "^2.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alves-Dr/AlexaServer1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alves-Dr/AlexaServer1/issues"
+  },
+  "homepage": "https://github.com/alves-Dr/AlexaServer1#readme",
+  "description": ""
 }
